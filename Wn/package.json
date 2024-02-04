@@ -1,0 +1,26 @@
+{
+  "name": "trees_32the_32root_32of_32life",
+  "main": "main.js",
+  "productName": "Trees The Root Of life",
+  "description": "Trees The Root Of life",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+    "@electron/remote": "^2.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "18.2.2",
+    "electron-builder": "22.11.11"
+  },
+  "build": {
+    "appId": "com.example.topdownrpg",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
